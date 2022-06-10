@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="scenePane" prefHeight="402.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <ImageView fitHeight="455.0" fitWidth="685.0" layoutX="-84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@media/StartingScreen.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="187.0" layoutY="181.0" mnemonicParsing="false" onAction="#switchToLoginScene" prefHeight="51.0" prefWidth="256.0" text="Start new game" AnchorPane.bottomAnchor="234.0" AnchorPane.leftAnchor="187.0" AnchorPane.rightAnchor="158.0" AnchorPane.topAnchor="181.0" />
+      <Button layoutX="230.0" layoutY="228.0" mnemonicParsing="false" onAction="#switchToAboutScene" prefHeight="24.0" prefWidth="168.0" text="About" />
+      <Button layoutX="230.0" layoutY="258.0" mnemonicParsing="false" onAction="#exit" prefHeight="24.0" prefWidth="168.0" text="Exit" />
+   </children>
+</AnchorPane>
